@@ -1,6 +1,12 @@
-# OCP = open for extension, closed for modification
-# after you have written and tested a class you should not change it
-# only extend it! -> class should be extendable but we should _not_ change! it
+# /env/bin/python3
+"""
+Software entities (classes, modules, functions, etc.) should be open for extension, 
+but closed for modification. 
+"Bertrand Meyer"
+-> After you have written and tested a class you should not change it, but
+only extend it!
+->How? We can use Interfaces to provide base functionality which is not to be modified
+"""
 
 from enum import Enum
 
