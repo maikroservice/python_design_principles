@@ -5,7 +5,7 @@ This repository demonstrates some design principles and best practices in python
 ## SOLID
 
 - [S = single responsibility (SRP)](SOLID/single_responsibility.py)
-- [O = open closed](SOLID/open_closed.py)
-- [L = Liskov substitution](SOLID/liskov_substitution.py)
-- [I = Interface segregation](SOLID/interface_segregation.py)
-- [D = Dependency Inversion](SOLID/dependency_inversion.py)
+- [O = open closed (OCP)](SOLID/open_closed.py)
+- [L = Liskov substitution (LSP)](SOLID/liskov_substitution.py)
+- [I = Interface segregation (ISP)](SOLID/interface_segregation.py)
+- [D = Dependency Inversion (DIP)](SOLID/dependency_inversion.py)
