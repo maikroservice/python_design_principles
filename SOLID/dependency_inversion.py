@@ -15,7 +15,9 @@ class Person:
 
 class Relationships:
     def __init__(self):
-        self.relations = []
+        self.relations = [] # this is the underlying issue - if you change the implementation
+                            # of the relations storage (say change it from a list to a dict)
+                            # then that would break the implementation of the lookup (line 34ff)
 
     def add_parent_and_child(self, parent, child):
         self.relations.append(
