@@ -12,8 +12,8 @@ class Person:
     def __init__(self, name):
         self.name = name
 
-
-class Relationships:
+# low level module -> Relationships -> it handles the storage and "search&return"
+class Relationships: 
     def __init__(self):
         self.relations = [] # this is the underlying issue - if you change the implementation
                             # of the relations storage (say change it from a list to a dict)
