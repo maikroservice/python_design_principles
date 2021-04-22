@@ -20,7 +20,7 @@ class HtmlElement:
             lines.append(f"{j}{self.text}")
 
         for element in self.elements:
-            lines.append(e._str(indent + 1))
+            lines.append(element._str(indent + 1))
 
         lines.append(f"{i}</{self.name}>")
 
