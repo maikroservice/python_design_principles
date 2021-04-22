@@ -13,3 +13,4 @@ This repository demonstrates some design principles and best practices in python
 ## Builder
 
 - [Overview](Builder/builder.py)
+- [Facets](Builder/builder_facets.py)
