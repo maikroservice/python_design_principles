@@ -2,6 +2,10 @@ This repository demonstrates some design principles and best practices in python
 
 # Design Principles
 
+## Gamma Categorization
+
+- [Gamma Categorization](gamma_categorization.md)
+
 ## SOLID
 
 - [S = single responsibility (SRP)](SOLID/single_responsibility.py)
