@@ -18,3 +18,4 @@ This repository demonstrates some design principles and best practices in python
 
 - [Overview](Builder/builder.py)
 - [Facets](Builder/builder_facets.py)
+- [Inheritance](Builder/builder_inheritance.py)
